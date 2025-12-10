@@ -294,6 +294,9 @@ These rules are enforced by:
 
 # **1. AUTHENTICATION APIs**
 
+## **Verify Login**
+**GET** `/api/auth/verify`
+
 ## **Register Customer**
 **POST** `/api/users/customer`
 
@@ -320,18 +323,6 @@ These rules are enforced by:
 ```
 
 
-## **Login**
-**POST** `/api/auth/login`
-
-```json
-{
-  "username": "john123",
-  "password": "pass123",
-  "role": "Customer"
-}
-```
-
-
 #  **2. SERVICE REQUEST APIs**
 
 ## **Create Request**
@@ -345,6 +336,7 @@ These rules are enforced by:
   "priority": "HIGH"
 }
 ```
+Access: **Customer**
 
 ## **Get All Requests**
 **GET** `/api/requests/all`
@@ -374,27 +366,14 @@ Rule: Staff can only view assigned requests.
 
 
 ## **Assign Staff**
-**PUT** `/api/requests/{id}/assign-staff`
+**PUT** `/api/requests/{id}/assign?staffId={staff-id}`
 
-```json
-{
-  "staffId": "S001"
-}
-```
 
 Rule: Admin only.
 
 
 ## **Update Status**
-**PUT** `/api/requests/{id}/status`
-
-```json
-{
-  "newStatus": "IN_PROGRESS",
-  "notes": "Work started on the issue",
-  "actorId": "S001"
-}
-```
+**PUT** `/api/requests/{id}/status?status={something}&actorId={staff-id}&notes={something}`
 
 
 ## **Cancel Request**
@@ -417,14 +396,12 @@ Rule: Only the customer may cancel their own request.
 
 
 ## **Get All Notifications**
-**GET** `/api/notifications/user/{userId}`
+**GET** `/api/notifications/{userId}`
 
 
 ## **Get Unread Notifications**
-**GET** `/api/notifications/user/{userId}/unread`
+**GET** `/api/notifications/{userId}/unread`
 
-## **Mark All as Read**
-**POST** `/api/notifications/user/{userId}/mark-all-read`
 
 #  **4. REVIEW APIs**
 
@@ -459,20 +436,7 @@ Rule: Only the customer may cancel their own request.
 ```
 
 
-#  **6. DASHBOARD APIs**
-
-## **Summary**
-**GET** `/api/dashboard/summary`
-
-## **Unread Notification Count**
-**GET** `/api/dashboard/unread-notifications/{userId}`
-
-## **Health Check**
-**GET** `/api/dashboard/health`
-
-
-
-#  **7. Sample IDs**
+#  **6. Sample IDs**
 
 - Customer: `C001`, `C002`  
 - Staff: `S001`, `S002`  

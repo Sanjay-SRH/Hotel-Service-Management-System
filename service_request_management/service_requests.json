@@ -1,0 +1,54 @@
+[
+  {
+    "requestId": "EL-C002-113",
+    "clientId": "C002",
+    "serviceType": "Electrical",
+    "description": "Fan not working",
+    "priority": "HIGH",
+    "status": "COMPLETED",
+    "assignedStaffId": "S001",
+    "completionNotes": "Done",
+    "createdAt": "2025-12-11T01:47:29.6347062",
+    "updatedAt": "2025-12-11T02:08:12.4563684",
+    "completedAt": "2025-12-11T02:08:12.4563684"
+  },
+  {
+    "requestId": "PL-C002-640",
+    "clientId": "C002",
+    "serviceType": "Plumbing",
+    "description": "Shower is not working.",
+    "priority": "MEDIUM",
+    "status": "COMPLETED",
+    "assignedStaffId": "S002",
+    "completionNotes": "Done",
+    "createdAt": "2025-12-11T01:48:08.0432438",
+    "updatedAt": "2025-12-11T02:18:23.1119864",
+    "completedAt": "2025-12-11T02:18:23.1119864"
+  },
+  {
+    "requestId": "EL-C001-599",
+    "clientId": "C001",
+    "serviceType": "Electrical",
+    "description": "AC is not working.",
+    "priority": "MEDIUM",
+    "status": "CANCELLED",
+    "assignedStaffId": "S001",
+    "completionNotes": "null",
+    "createdAt": "2025-12-11T01:49:55.7848425",
+    "updatedAt": "2025-12-11T02:07:25.1119216",
+    "completedAt": "2025-12-11T02:07:25.1109251"
+  },
+  {
+    "requestId": "GM-C001-401",
+    "clientId": "C001",
+    "serviceType": "General Maintenance",
+    "description": "I need extra pillows.",
+    "priority": "MEDIUM",
+    "status": "ASSIGNED",
+    "assignedStaffId": "S002",
+    "completionNotes": "null",
+    "createdAt": "2025-12-11T01:51:05.4120199",
+    "updatedAt": "2025-12-11T02:04:17.2903321",
+    "completedAt": "null"
+  }
+]

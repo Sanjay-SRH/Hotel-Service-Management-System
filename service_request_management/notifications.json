@@ -1,0 +1,314 @@
+[
+  {
+    "id": "dececd74-101e-4c72-98e9-4b503a5870bd",
+    "userId": "A001",
+    "title": "Alert",
+    "message": "New Client account created: Alekhya (ID: C001, Room: 101). Username: cust1",
+    "timestamp": "2025-12-11T01:39:15.4644751",
+    "isRead": "false"
+  },
+  {
+    "id": "799ebd07-6730-4623-bed0-aa89dfd613f6",
+    "userId": "A001",
+    "title": "Alert",
+    "message": "New Client account created: Sanjay (ID: C002, Room: 102). Username: cust2",
+    "timestamp": "2025-12-11T01:39:40.8399574",
+    "isRead": "false"
+  },
+  {
+    "id": "7bfcc133-b816-44b9-9379-98619dbbca93",
+    "userId": "A001",
+    "title": "Alert",
+    "message": "New Staff account created: Ravi (ID: S001). Username: staff1",
+    "timestamp": "2025-12-11T01:41:51.2874527",
+    "isRead": "false"
+  },
+  {
+    "id": "f7589723-e586-4494-8943-ef4865f8a4c7",
+    "userId": "A001",
+    "title": "Alert",
+    "message": "New Staff account created: Rajesh (ID: S002). Username: staff2",
+    "timestamp": "2025-12-11T01:42:11.7424661",
+    "isRead": "false"
+  },
+  {
+    "id": "89335431-126d-4e59-b38c-781384792154",
+    "userId": "C002",
+    "title": "Request Created",
+    "message": "Your new request (EL-C002-113) for Electrical has been successfully created. Status: PENDING.",
+    "timestamp": "2025-12-11T01:47:29.6382287",
+    "isRead": "false"
+  },
+  {
+    "id": "9625aef8-c90d-475f-8fe5-37385ddb3d4a",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "New service request created: EL-C002-113 by customer C002 for service type Electrical.",
+    "timestamp": "2025-12-11T01:47:29.6402614",
+    "isRead": "false"
+  },
+  {
+    "id": "bbee7b61-cec7-4ec0-8f28-90dd5a3483ee",
+    "userId": "C002",
+    "title": "Request Created",
+    "message": "Your new request (PL-C002-640) for Plumbing has been successfully created. Status: PENDING.",
+    "timestamp": "2025-12-11T01:48:08.0453024",
+    "isRead": "false"
+  },
+  {
+    "id": "3da11a96-1968-405a-bee3-8c9909b945eb",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "New service request created: PL-C002-640 by customer C002 for service type Plumbing.",
+    "timestamp": "2025-12-11T01:48:08.0472962",
+    "isRead": "false"
+  },
+  {
+    "id": "7a0d7bc5-1bcb-42c7-a05b-ab9b53a2308e",
+    "userId": "C001",
+    "title": "Request Created",
+    "message": "Your new request (EL-C001-599) for Electrical has been successfully created. Status: PENDING.",
+    "timestamp": "2025-12-11T01:49:55.7893932",
+    "isRead": "false"
+  },
+  {
+    "id": "04d91ce1-0dbf-4423-9e47-26b0cb901521",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "New service request created: EL-C001-599 by customer C001 for service type Electrical.",
+    "timestamp": "2025-12-11T01:49:55.7974149",
+    "isRead": "false"
+  },
+  {
+    "id": "1621637d-0e8b-4c20-bf79-1ed9cb62ac36",
+    "userId": "C001",
+    "title": "Request Created",
+    "message": "Your new request (GM-C001-401) for General Maintenance has been successfully created. Status: PENDING.",
+    "timestamp": "2025-12-11T01:51:05.4140003",
+    "isRead": "false"
+  },
+  {
+    "id": "c736bb20-0554-4678-a073-b1a753d6e52a",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "New service request created: GM-C001-401 by customer C001 for service type General Maintenance.",
+    "timestamp": "2025-12-11T01:51:05.4160088",
+    "isRead": "false"
+  },
+  {
+    "id": "6441db30-367c-4ee1-b632-d627fa4633a9",
+    "userId": "S001",
+    "title": "New Assignment",
+    "message": "You have been assigned to a new service request: EL-C002-113. Type: Electrical.",
+    "timestamp": "2025-12-11T01:57:59.5640117",
+    "isRead": "false"
+  },
+  {
+    "id": "356b7213-57c0-4d93-bb00-548e7d655cd3",
+    "userId": "C002",
+    "title": "Staff Assigned",
+    "message": "Your request (EL-C002-113) has been assigned to staff S001. Status is now ASSIGNED.",
+    "timestamp": "2025-12-11T01:57:59.566006",
+    "isRead": "false"
+  },
+  {
+    "id": "e2acce6b-9b8e-43ca-b055-d83e3a50b63c",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request EL-C002-113 has been assigned to staff S001 for customer C002.",
+    "timestamp": "2025-12-11T01:57:59.5680112",
+    "isRead": "false"
+  },
+  {
+    "id": "5bcb0110-e26b-4668-9f6e-e5c878da0f01",
+    "userId": "S001",
+    "title": "New Assignment",
+    "message": "You have been assigned to a new service request: EL-C002-113. Type: Electrical.",
+    "timestamp": "2025-12-11T01:58:29.6534912",
+    "isRead": "false"
+  },
+  {
+    "id": "3a7aec21-353f-4224-8220-04765c700d3d",
+    "userId": "C002",
+    "title": "Staff Assigned",
+    "message": "Your request (EL-C002-113) has been assigned to staff S001. Status is now ASSIGNED.",
+    "timestamp": "2025-12-11T01:58:29.6554892",
+    "isRead": "false"
+  },
+  {
+    "id": "74c99ca9-762b-47c8-b01b-eab8c4e7639a",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request EL-C002-113 has been assigned to staff S001 for customer C002.",
+    "timestamp": "2025-12-11T01:58:29.6574859",
+    "isRead": "false"
+  },
+  {
+    "id": "75bfb285-c55a-423c-bf98-a57c8e8f154d",
+    "userId": "S001",
+    "title": "New Assignment",
+    "message": "You have been assigned to a new service request: EL-C001-599. Type: Electrical.",
+    "timestamp": "2025-12-11T02:03:34.697837",
+    "isRead": "false"
+  },
+  {
+    "id": "6d4b079c-f492-4943-b650-c2a8204d8022",
+    "userId": "C001",
+    "title": "Staff Assigned",
+    "message": "Your request (EL-C001-599) has been assigned to staff S001. Status is now ASSIGNED.",
+    "timestamp": "2025-12-11T02:03:34.6988403",
+    "isRead": "false"
+  },
+  {
+    "id": "33e5d1fc-30aa-4672-aebf-6a154209b2a1",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request EL-C001-599 has been assigned to staff S001 for customer C001.",
+    "timestamp": "2025-12-11T02:03:34.7018365",
+    "isRead": "false"
+  },
+  {
+    "id": "33d9e3fc-76b7-478e-9f6b-9ef6e7d3d85c",
+    "userId": "S002",
+    "title": "New Assignment",
+    "message": "You have been assigned to a new service request: GM-C001-401. Type: General Maintenance.",
+    "timestamp": "2025-12-11T02:04:17.2923325",
+    "isRead": "false"
+  },
+  {
+    "id": "d5499cee-a31e-4c07-b305-728794e6358c",
+    "userId": "C001",
+    "title": "Staff Assigned",
+    "message": "Your request (GM-C001-401) has been assigned to staff S002. Status is now ASSIGNED.",
+    "timestamp": "2025-12-11T02:04:17.2953467",
+    "isRead": "false"
+  },
+  {
+    "id": "930bcbdc-97ac-42c4-a7d8-fc404f1f8af8",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request GM-C001-401 has been assigned to staff S002 for customer C001.",
+    "timestamp": "2025-12-11T02:04:17.2978602",
+    "isRead": "false"
+  },
+  {
+    "id": "fa009a85-b805-4e53-85b7-8897ebafdd3f",
+    "userId": "S002",
+    "title": "New Assignment",
+    "message": "You have been assigned to a new service request: PL-C002-640. Type: Plumbing.",
+    "timestamp": "2025-12-11T02:04:50.4353714",
+    "isRead": "false"
+  },
+  {
+    "id": "76654ee3-c74c-488f-8783-ea4293e47b04",
+    "userId": "C002",
+    "title": "Staff Assigned",
+    "message": "Your request (PL-C002-640) has been assigned to staff S002. Status is now ASSIGNED.",
+    "timestamp": "2025-12-11T02:04:50.4363731",
+    "isRead": "false"
+  },
+  {
+    "id": "552fd5a6-540f-4009-bcf4-91efd2eabc08",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request PL-C002-640 has been assigned to staff S002 for customer C002.",
+    "timestamp": "2025-12-11T02:04:50.4373709",
+    "isRead": "false"
+  },
+  {
+    "id": "57c5aa02-5c68-4068-9d11-391817257015",
+    "userId": "S001",
+    "title": "Request Cancelled",
+    "message": "Service request EL-C001-599 has been cancelled by the customer.",
+    "timestamp": "2025-12-11T02:07:25.1129008",
+    "isRead": "false"
+  },
+  {
+    "id": "e6a3dccb-09d3-4c45-86b0-935f428d82ee",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request EL-C001-599 was cancelled by customer C001.",
+    "timestamp": "2025-12-11T02:07:25.1151035",
+    "isRead": "false"
+  },
+  {
+    "id": "ca6e44ea-2237-4425-ae40-60618098c8c9",
+    "userId": "C002",
+    "title": "Request Status Update",
+    "message": "Your request (EL-C002-113) status changed from ASSIGNED to COMPLETED. Notes: Done",
+    "timestamp": "2025-12-11T02:08:12.4583676",
+    "isRead": "false"
+  },
+  {
+    "id": "d62c97ae-f781-4440-8498-002d16ffefa8",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request EL-C002-113 status changed from ASSIGNED to COMPLETED by staff S001.",
+    "timestamp": "2025-12-11T02:08:12.4603753",
+    "isRead": "false"
+  },
+  {
+    "id": "39c403a4-60ed-431a-85e8-189ca9b0d4e6",
+    "userId": "S001",
+    "title": "Request Status Update",
+    "message": "Status of request (EL-C002-113) for customer C002 changed from ASSIGNED to COMPLETED.",
+    "timestamp": "2025-12-11T02:08:12.4613664",
+    "isRead": "false"
+  },
+  {
+    "id": "f8d1bae8-dd5d-41a1-b84d-5442852e7905",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Customer C002 submitted a review for request EL-C002-113 with rating 5.",
+    "timestamp": "2025-12-11T02:12:24.3177193",
+    "isRead": "false"
+  },
+  {
+    "id": "2ff91ec5-fed9-4aab-a262-f1d9da101421",
+    "userId": "S001",
+    "title": "New Review",
+    "message": "Customer C002 submitted a review for request EL-C002-113 with rating 5.",
+    "timestamp": "2025-12-11T02:12:24.3207168",
+    "isRead": "false"
+  },
+  {
+    "id": "c0b8afbd-2894-470f-8ccd-793871a2fa22",
+    "userId": "C002",
+    "title": "Request Status Update",
+    "message": "Your request (PL-C002-640) status changed from ASSIGNED to COMPLETED. Notes: Done",
+    "timestamp": "2025-12-11T02:18:23.1130094",
+    "isRead": "false"
+  },
+  {
+    "id": "2cb540f2-74c1-4f09-b221-391129430312",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Request PL-C002-640 status changed from ASSIGNED to COMPLETED by staff S002.",
+    "timestamp": "2025-12-11T02:18:23.115015",
+    "isRead": "false"
+  },
+  {
+    "id": "0ef1b127-7ece-4206-84e3-f4100b10d553",
+    "userId": "S002",
+    "title": "Request Status Update",
+    "message": "Status of request (PL-C002-640) for customer C002 changed from ASSIGNED to COMPLETED.",
+    "timestamp": "2025-12-11T02:18:23.1160115",
+    "isRead": "false"
+  },
+  {
+    "id": "e1abb29f-d995-4e1a-910b-43f19d7fa54a",
+    "userId": "A001",
+    "title": "Admin Alert",
+    "message": "Customer C002 submitted a review for request PL-C002-640 with rating 5.",
+    "timestamp": "2025-12-11T02:20:23.4180791",
+    "isRead": "false"
+  },
+  {
+    "id": "4588cb14-6658-45ac-999f-ff10ecf291e8",
+    "userId": "S002",
+    "title": "New Review",
+    "message": "Customer C002 submitted a review for request PL-C002-640 with rating 5.",
+    "timestamp": "2025-12-11T02:20:23.4180791",
+    "isRead": "false"
+  }
+]

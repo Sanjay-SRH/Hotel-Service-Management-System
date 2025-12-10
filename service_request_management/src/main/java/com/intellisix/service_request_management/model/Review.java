@@ -42,11 +42,14 @@ public class Review {
     // --- Getters and Setters ---
     public String getReq_id() { return this.request_id; }
     public void setReq_id(String req_id) { this.request_id = req_id; }
+
+    // THIS METHOD EXPOSES the customer's comment/message as the JSON field "review"
     public String getReview() { return this.review; }
     public void setReview(String review) { this.review = review; }
+
     public String getRating() { return this.rating; }
-    public String getReviewMessage() { return this.review; } // <-- ADDED THIS LINE
     public void setRating(String rating) { this.rating = rating; }
+
     public boolean isTaken() { return this.taken; }
     public void setTaken(boolean taken) { this.taken = taken; }
 
